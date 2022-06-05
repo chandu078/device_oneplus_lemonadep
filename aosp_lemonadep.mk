@@ -11,10 +11,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lemonadep device
 $(call inherit-product, device/oneplus/lemonadep/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Nameless-AOSP stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_lemonadep
+# Boot Animation
+TARGET_BOOT_ANIMATION_RES := 1440
+
+# Official
+CUSTOM_BUILD_TYPE := Official
+
+# Device identifier. This must come after all inclusions.
+PRODUCT_NAME := aosp_lemonadep
 PRODUCT_DEVICE := lemonadep
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -28,5 +35,3 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=OnePlus9Pro \
     TARGET_PRODUCT=OnePlus9Pro
-
-BUILD_FINGERPRINT := OnePlus/OnePlus9Pro/OnePlus9Pro:12/SKQ1.210216.001/R.202204081955:user/release-keys
