@@ -1,0 +1,12 @@
+<!--
+     Copyright (C) 2022-2024 The Nameless-AOSP Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.nameless.display.resolution.fwb"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <overlay android:targetPackage="android" android:category="android.resolution.customization" android:priority="1000" />
+
+    <application android:label="FHD+ frameworks" android:hasCode="false" />
+</manifest>

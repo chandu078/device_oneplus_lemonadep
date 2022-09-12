@@ -56,6 +56,11 @@ PRODUCT_PACKAGES += \
     OPlusWifiResTarget \
     PixelSetupWizardResTarget
 
+# Resolution overlay
+PRODUCT_PACKAGES += \
+    FhdResolutionOverlayFwb \
+    FhdResolutionOverlaySysUI
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)

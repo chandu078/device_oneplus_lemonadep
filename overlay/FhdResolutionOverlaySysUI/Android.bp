@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "FhdResolutionOverlaySysUI",
+    theme: "FhdResolutionSysUI",
+    product_specific: true,
+}
