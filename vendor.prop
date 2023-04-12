@@ -6,7 +6,7 @@ ro.surface_flinger.set_idle_timer_ms=250
 ro.surface_flinger.set_touch_timer_ms=300
 
 # Resolution switch
-ro.display.resolution.custom=true
+ro.display.resolution.custom=1
 
 # USB
 vendor.usb.product_string=OnePlus 9 Pro
