@@ -44,6 +44,13 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.nfc_extras.xml \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml
 
+# Iris
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/iris/pixelworks_apps.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/pixelworks_apps.xml
+
+PRODUCT_PACKAGES += \
+    IrisService
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-aosp

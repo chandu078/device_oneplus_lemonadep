@@ -887,6 +887,7 @@ vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
 # Iris
+odm/bin/irisConfig
 odm/etc/inparm/iris5/inParm1.txt
 odm/etc/inparm/iris5/inParm10.txt
 odm/etc/inparm/iris5/inParm11.txt
