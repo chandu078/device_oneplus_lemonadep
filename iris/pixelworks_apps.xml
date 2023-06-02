@@ -7,6 +7,8 @@
     <mConfigPackage rate="120" type="267-3-1">tv.danmaku.bili</mConfigPackage>
     <mConfigPackage rate="120" type="267-3-1">com.bilibili.app.in</mConfigPackage>
     <mConfigPackage rate="120" type="267-3-1">tv.danmaku.bili.in</mConfigPackage>
+    <mConfigPackage rate="120" type="267-3-1">app.revanced.android.youtube</mConfigPackage>
+    <mConfigPackage rate="120" type="267-3-1">app.rvx.android.youtube</mConfigPackage>
     <mConfigPackage rate="120" type="267-3-1">com.google.android.youtube</mConfigPackage>
     <mConfigPackage rate="60" type="267-3-1">com.amazon.avod.thirdpartyclient</mConfigPackage>
     <mConfigPackage rate="120" type="267-3-1">com.netflix.mediaclient</mConfigPackage>
@@ -20,6 +22,10 @@
     <mConfigPackage rate="120" type="267-3-1">in.startv.hotstar</mConfigPackage>
     <mConfigPackage rate="120" type="267-3-1">com.iqiyi.i18n</mConfigPackage>
     <mConfigPackage rate="120" type="267-3-1">com.coloros.gallery3d</mConfigPackage>
+    <mConfigPackage rate="120" type="267-3-1">com.oneplus.gallery</mConfigPackage>
+    <mConfigPackage rate="120" type="267-3-3">xyz.re.player.ex</mConfigPackage>
+    <mConfigPackage rate="120" type="267-3-1">ahaflix.tv</mConfigPackage>
+    <mConfigPackage rate="120" type="267-3-1">com.suntv.sunnxt</mConfigPackage>
 
     <!--Config activity switch callback-->
     <mConfigActivity type="258-40-0-0">com.tencent.qqlive/com.tencent.qqlive.ona.activity.VideoDetailActivity</mConfigActivity>
@@ -35,6 +41,7 @@
     <mConfigActivity type="258-10-0-0">com.youku.phone/com.youku.hotspot.activity.HotSpotActivity</mConfigActivity>
     <mConfigActivity type="258-40-0-0">com.youku.phone/com.youku.ui.activity.LocalMediaPlayActivity</mConfigActivity>
     <mConfigActivity type="258-40-0-0">com.coloros.gallery3d/com.oppo.gallery3d.app.Gallery</mConfigActivity>
+    <mConfigActivity type="258-40-0-0">com.oneplus.gallery/com.oneplus.gallery.app.Gallery</mConfigActivity>
     <mConfigActivity type="258-40-0-0">com.tencent.qqsports/com.tencent.qqsports.matchdetail.MatchDetailExActivity</mConfigActivity>
     <mConfigActivity type="258-10-0-0">com.tencent.qqsports/com.tencent.qqsports.immersive.ImmersiveVideoListActivity</mConfigActivity>
     <mConfigActivity type="258-10-0-0">com.tencent.qqsports/com.tencent.qqsports.immersivev1.ImmersiveVideoListActivity</mConfigActivity>
@@ -43,6 +50,12 @@
     <mConfigActivity type="258-10-0-0">com.tencent.qqsports/com.tencent.qqsports.homevideo.VideoChannelDetailActivity</mConfigActivity>
     <mConfigActivity type="258-40-0-0">com.tencent.qqsports/com.tencent.qqsports.homevideo.DocumentaryDetailActivity</mConfigActivity>
     <mConfigActivity type="258-40-0-0">com.tencent.qqsports/com.tencent.qqsports.show.ShowDetailActivity</mConfigActivity>
+    <mConfigActivity type="258-40-0-0">app.revanced.android.youtube/com.google.android.apps.youtube.app.WatchWhileActivity</mConfigActivity>
+    <mConfigActivity type="258-40-0-0">app.revanced.android.youtube/com.google.android.apps.youtube.app.watchwhile.WatchWhileActivity</mConfigActivity>
+    <mConfigActivity type="258-40-0-0">app.revanced.android.youtube/com.google.android.apps.youtube.app.extensions.reel.watch.activity.ReelWatchActivity</mConfigActivity>
+    <mConfigActivity type="258-40-0-0">app.rvx.android.youtube/com.google.android.apps.youtube.app.WatchWhileActivity</mConfigActivity>
+    <mConfigActivity type="258-40-0-0">app.rvx.android.youtube/com.google.android.apps.youtube.app.watchwhile.WatchWhileActivity</mConfigActivity>
+    <mConfigActivity type="258-40-0-0">app.rvx.android.youtube/com.google.android.apps.youtube.app.extensions.reel.watch.activity.ReelWatchActivity</mConfigActivity>
     <mConfigActivity type="258-40-0-0">com.google.android.youtube/com.google.android.apps.youtube.app.WatchWhileActivity</mConfigActivity>
     <mConfigActivity type="258-40-0-0">com.google.android.youtube/com.google.android.apps.youtube.app.watchwhile.WatchWhileActivity</mConfigActivity>
     <mConfigActivity type="258-40-0-0">com.google.android.youtube/com.google.android.apps.youtube.app.extensions.reel.watch.activity.ReelWatchActivity</mConfigActivity>
@@ -53,23 +66,26 @@
     <mConfigActivity type="258-40-0-0">com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ActivityScreen$WebDelegate</mConfigActivity>
     <mConfigActivity type="258-40-0-0">com.mxtech.videoplayer.pro/com.mxtech.videoplayer.pro.ActivityScreen</mConfigActivity>
     <mConfigActivity type="258-40-0-0">com.mxtech.videoplayer.pro/com.mxtech.videoplayer.ActivityScreen$WebDelegate</mConfigActivity>
-    <mConfigActivity type="258-40-0-0">tv.danmaku.bili/tv.danmaku.bili.ui.video.VideoDetailsActivity</mConfigActivity>
-    <mConfigActivity type="258-40-0-0">tv.danmaku.bili/com.bilibili.bangumi.ui.page.detail.BangumiDetailActivityV3</mConfigActivity>
-    <mConfigActivity type="258-40-0-0">tv.danmaku.bili/tv.danmaku.biliplayer.demand.PlayerActivity</mConfigActivity>
-    <mConfigActivity type="258-40-0-0">tv.danmaku.bili/com.bilibili.bililive.videoliveplayer.ui.roomv3.LiveRoomActivityV3</mConfigActivity>
-    <mConfigActivity type="258-40-0-0">tv.danmaku.bili/com.bilibili.multitypeplayer.ui.playpage.MultiTypeVerticalPlayerActivity</mConfigActivity>
-    <mConfigActivity type="258-40-0-0">com.bilibili.app.in/tv.danmaku.bili.ui.video.VideoDetailsActivity</mConfigActivity>
-    <mConfigActivity type="258-40-0-0">com.bilibili.app.in/com.bilibili.bangumi.ui.page.detail.BangumiDetailActivityV3</mConfigActivity>
-    <mConfigActivity type="258-40-0-0">com.bilibili.app.in/tv.danmaku.biliplayer.demand.PlayerActivity</mConfigActivity>
-    <mConfigActivity type="258-40-0-0">com.bilibili.app.in/com.bilibili.multitypeplayer.ui.playpage.MultiTypeVerticalPlayerActivity</mConfigActivity>
-    <mConfigActivity type="258-40-0-0">tv.danmaku.bili.in/tv.danmaku.bili.ui.video.VideoDetailsActivity</mConfigActivity>
-    <mConfigActivity type="258-40-0-0">tv.danmaku.bili.in/com.bilibili.bangumi.ui.page.detail.BangumiDetailActivityV3</mConfigActivity>
-    <mConfigActivity type="258-40-0-0">tv.danmaku.bili.in/tv.danmaku.biliplayer.demand.PlayerActivity</mConfigActivity>
-    <mConfigActivity type="258-40-0-0">tv.danmaku.bili/com.bilibili.video.videodetail.VideoDetailsActivity</mConfigActivity>
+    <mConfigActivity type="258-10-0-0">tv.danmaku.bili/tv.danmaku.bili.ui.video.VideoDetailsActivity</mConfigActivity>
+    <mConfigActivity type="258-10-0-0">tv.danmaku.bili/com.bilibili.bangumi.ui.page.detail.BangumiDetailActivityV3</mConfigActivity>
+    <mConfigActivity type="258-10-0-0">tv.danmaku.bili/tv.danmaku.biliplayer.demand.PlayerActivity</mConfigActivity>
+    <mConfigActivity type="258-10-0-0">tv.danmaku.bili/com.bilibili.bililive.videoliveplayer.ui.roomv3.LiveRoomActivityV3</mConfigActivity>
+    <mConfigActivity type="258-10-0-0">tv.danmaku.bili/com.bilibili.multitypeplayer.ui.playpage.MultiTypeVerticalPlayerActivity</mConfigActivity>
+    <mConfigActivity type="258-10-0-0">com.bilibili.app.in/tv.danmaku.bili.ui.video.VideoDetailsActivity</mConfigActivity>
+    <mConfigActivity type="258-10-0-0">com.bilibili.app.in/com.bilibili.bangumi.ui.page.detail.BangumiDetailActivityV3</mConfigActivity>
+    <mConfigActivity type="258-10-0-0">com.bilibili.app.in/tv.danmaku.biliplayer.demand.PlayerActivity</mConfigActivity>
+    <mConfigActivity type="258-10-0-0">com.bilibili.app.in/com.bilibili.multitypeplayer.ui.playpage.MultiTypeVerticalPlayerActivity</mConfigActivity>
+    <mConfigActivity type="258-10-0-0">tv.danmaku.bili.in/tv.danmaku.bili.ui.video.VideoDetailsActivity</mConfigActivity>
+    <mConfigActivity type="258-10-0-0">tv.danmaku.bili.in/com.bilibili.bangumi.ui.page.detail.BangumiDetailActivityV3</mConfigActivity>
+    <mConfigActivity type="258-10-0-0">tv.danmaku.bili.in/tv.danmaku.biliplayer.demand.PlayerActivity</mConfigActivity>
+    <mConfigActivity type="258-10-0-0">tv.danmaku.bili/com.bilibili.video.videodetail.VideoDetailsActivity</mConfigActivity>
     <mConfigActivity type="258-10-0-0">com.app.pornhub/com.app.pornhub.view.videodetails.VideoDetailsActivity</mConfigActivity>
     <mConfigActivity type="258-40-0-0">in.startv.hotstaronly/in.startv.hotstar.rocky.detailpage.HSDetailPageActivity</mConfigActivity>
     <mConfigActivity type="258-40-0-0">in.startv.hotstar/in.startv.hotstar.rocky.watchpage.HSWatchPageActivity</mConfigActivity>
     <mConfigActivity type="258-40-0-0">org.videolan.vlc/org.videolan.vlc.gui.video.VideoPlayerActivity</mConfigActivity>
     <mConfigActivity type="258-10-0-0">com.amazon.avod.thirdpartyclient/com.amazon.avod.thirdpartyclient.ThirdPartyPlaybackActivity</mConfigActivity>
     <mConfigActivity type="258-40-0-0">com.iqiyi.i18n/org.iqiyi.video.activity.PlayerActivity</mConfigActivity>
+    <mConfigActivity type="258-10-0-0">xyz.re.player.ex/xyz.re.player.ex.MainActivity</mConfigActivity>
+    <mConfigActivity type="258-40-0-0">ahaflix.tv/ahaflix.tv.views.MainActivity</mConfigActivity>
+    <mConfigActivity type="258-40-0-0">com.suntv.sunnxt/com.android.myplex.ui.sun.activities.DetailsActivity</mConfigActivity>
   </filter-conf>
