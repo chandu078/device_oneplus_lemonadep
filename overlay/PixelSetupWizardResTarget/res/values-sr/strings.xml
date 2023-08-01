@@ -2,6 +2,6 @@
 <resources>
     <string name="bc_welcome_message">Добро дошли у OnePlus</string>
     <string name="deferred_setup_wizard_title">Довршите подешавање Nameless-AOSP-а</string>
-    <string name="device_name">OnePlus 9 Pro</string>
+    <string name="device_name">OnePlus 9 Pro 5G</string>
     <string name="setup_wizard_title">Подешавање Nameless-AOSP-а</string>
 </resources>
