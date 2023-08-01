@@ -1,6 +1,9 @@
 # Bluetooth
 bluetooth.device.default_name=OnePlus 9 Pro 5G
 
+# Market
+ro.vendor.oplus.market.name=OnePlus 9 Pro 5G
+
 # Graphics
 ro.surface_flinger.set_idle_timer_ms=250
 ro.surface_flinger.set_touch_timer_ms=300
