@@ -102,6 +102,9 @@ odm/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt
 odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt
 
 # Camera
+odm/etc/camera/CameraHWConfiguration.config
+odm/etc/camera/anc_cl_kernel.cache
+odm/etc/camera/anc_cl_kernel_ins.cache
 odm/etc/camera/ancsegbase/anc_cl_kernel.cache
 odm/etc/camera/ancsegbase/model.data
 odm/etc/camera/asd/class.dlc
@@ -112,10 +115,13 @@ odm/etc/camera/ashdr/ncf_pack_imx689.ncf
 odm/etc/camera/ashdr/ncf_pack_imx766.ncf
 odm/etc/camera/ashdr/ncf_pack_imx789.ncf
 odm/etc/camera/ashdr/ncf_pack_ov08a10.ncf
+odm/etc/camera/calibrationOutput_uw.bin
+odm/etc/camera/calibrationOutput_uw_686.bin
+odm/etc/camera/calibrationOutput_wt.bin
+odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin
 odm/etc/camera/cfr_bin/cfr_bin/CFR_imx766.bin
 odm/etc/camera/cfr_bin/cfr_bin/CFR_imx766_uw.bin
 odm/etc/camera/cfr_bin/cfr_bin/CFR_s5k3m5.bin
-odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin
 odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/camera_unit_feature_config.protobuf
 odm/etc/camera/config/imx471
@@ -129,6 +135,10 @@ odm/etc/camera/config/ov08a10
 odm/etc/camera/config/video_beauty_default_config
 odm/etc/camera/darksight/darksight_main.bin
 odm/etc/camera/darksight/darksight_ultrawide.bin
+odm/etc/camera/distortion_result.bin
+odm/etc/camera/eis_camera.vcfg
+odm/etc/camera/engineer_camera_config
+odm/etc/camera/fb_default
 odm/etc/camera/fb_model/000.png
 odm/etc/camera/fb_model/000_pre.bin
 odm/etc/camera/fb_model/001.png
@@ -196,6 +206,7 @@ odm/etc/camera/fb_model/skinLUTs_yuv16_12.bin
 odm/etc/camera/fb_model/skinLUTs_yuv16_13.bin
 odm/etc/camera/fb_model/skinmask.bin
 odm/etc/camera/fb_model/skinmask.png
+odm/etc/camera/fdc_lite_cl.cache
 odm/etc/camera/filters_lut/B1VLf4peM
 odm/etc/camera/filters_lut/B1aMqioxf
 odm/etc/camera/filters_lut/B1nmcmWbG
@@ -320,11 +331,14 @@ odm/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin
 odm/etc/camera/filters_res/film_grain_small.bin
 odm/etc/camera/filters_res/lut_all_points.png
 odm/etc/camera/filters_res/overlay_p4_3_weak.png
+odm/etc/camera/fwk_config.json
+odm/etc/camera/gasryuv_1.2_wp.model
 odm/etc/camera/micFilter/blue_pink_3.png
 odm/etc/camera/micFilter/curve_0.png
 odm/etc/camera/micFilter/green_orange_2.png
 odm/etc/camera/micFilter/yellow_green_1.png
 odm/etc/camera/model/DocDetectV15.xbin
+odm/etc/camera/model_fdc.data
 odm/etc/camera/pf/PerfectColorSet/normal/colorLut0
 odm/etc/camera/pf/PerfectColorSet/normal/colorLut1
 odm/etc/camera/pf/PerfectColorSet/normal/colorLut10
@@ -488,9 +502,11 @@ odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneBinary.bin
 odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneMRTBinary.bin
 odm/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin
 odm/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin
+odm/etc/camera/settings_fdc.txt
+odm/etc/camera/settings_fdc_lite.txt
+odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model
 odm/etc/camera/sticker/material/animoji/data.zip
 odm/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip
-odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model
 odm/etc/camera/tonemap/curve_lut_0
 odm/etc/camera/tonemap/curve_lut_1
 odm/etc/camera/tonemap/curve_lut_10
@@ -515,22 +531,6 @@ odm/etc/camera/tonemap/tonemap_lut_6
 odm/etc/camera/tonemap/tonemap_lut_7
 odm/etc/camera/tonemap/tonemap_lut_8
 odm/etc/camera/tonemap/tonemap_lut_9
-odm/etc/camera/CameraHWConfiguration.config
-odm/etc/camera/anc_cl_kernel.cache
-odm/etc/camera/anc_cl_kernel_ins.cache
-odm/etc/camera/calibrationOutput_uw.bin
-odm/etc/camera/calibrationOutput_uw_686.bin
-odm/etc/camera/calibrationOutput_wt.bin
-odm/etc/camera/distortion_result.bin
-odm/etc/camera/eis_camera.vcfg
-odm/etc/camera/engineer_camera_config
-odm/etc/camera/fb_default
-odm/etc/camera/fdc_lite_cl.cache
-odm/etc/camera/fwk_config.json
-odm/etc/camera/gasryuv_1.2_wp.model
-odm/etc/camera/model_fdc.data
-odm/etc/camera/settings_fdc.txt
-odm/etc/camera/settings_fdc_lite.txt
 odm/etc/init/calibrationOutput_uw.rc
 odm/etc/init/calibrationOutput_uw_686.rc
 odm/etc/init/calibrationOutput_wt.rc
@@ -539,11 +539,6 @@ odm/lib/libDeVIS.so
 odm/lib/libc++_shared.so
 odm/lib/libdehaze.so
 odm/lib/libnightvision.so
-odm/lib64/camera/components/com.arcsoft.node.eisv2.so
-odm/lib64/camera/components/com.arcsoft.node.smooth_transition.so
-odm/lib64/camera/components/com.oplus.node.preview.so
-odm/lib64/camera/components/com.oplus.node.rtb.so
-odm/lib64/camera/components/com.oplus.node.videoenhance.so
 odm/lib64/camera/arcsoft_calibration_uw.bin
 odm/lib64/camera/arcsoft_calibration_wt.bin
 odm/lib64/camera/arcsoft_dc_calibration_t.bin
@@ -567,6 +562,11 @@ odm/lib64/camera/com.qti.tuned.qtech_ov08a10.bin
 odm/lib64/camera/com.qti.tuned.semco_imx789.bin
 odm/lib64/camera/com.qti.tuned.sunny_imx766.bin
 odm/lib64/camera/com.qti.tuned.truly_imx471.bin
+odm/lib64/camera/components/com.arcsoft.node.eisv2.so
+odm/lib64/camera/components/com.arcsoft.node.smooth_transition.so
+odm/lib64/camera/components/com.oplus.node.preview.so
+odm/lib64/camera/components/com.oplus.node.rtb.so
+odm/lib64/camera/components/com.oplus.node.videoenhance.so
 odm/lib64/camera/fdconfigpreview.bin
 odm/lib64/camera/fdconfigpreviewlite.bin
 odm/lib64/camera/fdconfigvideo.bin
@@ -725,8 +725,6 @@ vendor/lib64/camera/components/com.qtistatic.stats.af.so
 vendor/lib64/camera/components/com.qtistatic.stats.awb.so
 vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
 vendor/lib64/camera/components/libdepthmapwrapper_secure.so
-vendor/lib64/hw/camera.qcom.so
-vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/com.qti.chiusecaseselector.so
 vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
@@ -757,6 +755,8 @@ vendor/lib64/com.qualcomm.mcx.distortionmapper.so
 vendor/lib64/com.qualcomm.mcx.linearmapper.so
 vendor/lib64/com.qualcomm.mcx.policy.mfl.so
 vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so
+vendor/lib64/hw/camera.qcom.so
+vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libSonyIMX471RmscLibrary.so
 vendor/lib64/libaidenoiser.so
 vendor/lib64/libalsc.so
@@ -851,8 +851,8 @@ odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
 odm/bin/init.oplus.fingerprints.sh
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
 odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml
-odm/lib64/hw/fingerprint.goodix_G3.default.so
 odm/lib64/anc.hal.so
+odm/lib64/hw/fingerprint.goodix_G3.default.so
 odm/lib64/libgf_hal_G3.so
 odm/lib64/libolc_vnd.so
 odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so
