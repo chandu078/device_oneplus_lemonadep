@@ -58,6 +58,7 @@
     <mConfigActivity type="258-40-0-0">app.rvx.android.youtube/com.google.android.apps.youtube.app.extensions.reel.watch.activity.ReelWatchActivity</mConfigActivity>
     <mConfigActivity type="258-40-0-0">com.google.android.youtube/com.google.android.apps.youtube.app.WatchWhileActivity</mConfigActivity>
     <mConfigActivity type="258-40-0-0">com.google.android.youtube/com.google.android.apps.youtube.app.watchwhile.WatchWhileActivity</mConfigActivity>
+    <mConfigActivity type="258-40-0-0">com.google.android.youtube/com.google.android.apps.youtube.app.watchwhile.MainActivity</mConfigActivity>
     <mConfigActivity type="258-40-0-0">com.google.android.youtube/com.google.android.apps.youtube.app.extensions.reel.watch.activity.ReelWatchActivity</mConfigActivity>
     <mConfigActivity type="258-74-0-0">com.netflix.mediaclient/o.Qd</mConfigActivity>
     <mConfigActivity type="258-74-0-0">com.netflix.mediaclient/o.Gl</mConfigActivity>
